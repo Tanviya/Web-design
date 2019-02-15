@@ -1,0 +1,258 @@
+html,body{
+    height: 100%;
+ max-width: 100%;
+ overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+
+.main-img{
+   min-width: 100%;
+   height:450px;
+}
+.border-green{
+    background-color: green;
+    height:15px;
+    width:100%;
+}
+.notify{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.dot{
+    color:green;
+    font-size: 50px;
+}
+.main-content{
+    position: relative;
+    bottom: 300px;
+    margin-left: 150px;
+}
+.para{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.wrapper {
+    display: inline-flex;
+    justify-content: center;
+  }
+  .wrapper i {
+    padding: 8px;
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+    transition: all ease-in-out 150ms;
+    font-size:30px;
+  }
+  .wrapper a:nth-child(1) {
+    color: black;
+  }
+  .wrapper a:nth-child(2) {
+    color: black;
+  }
+  .wrapper a:nth-child(3) {
+    color: black;
+  }
+  .wrapper i:hover {
+    margin-top: -3px;
+    color: green;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  }
+  .ionicon1{
+      font-size: 45px;
+      padding-top: 10px; 
+      padding-left: 12px; 
+      color: white;
+  }
+  .icons{
+      border: 1px solid transparent;
+      border-radius: 80px;
+      width: 70px;
+      height:65px;
+      background-color: rgb(21, 182, 62);
+      margin-left: 40%;
+    }
+  .about-icon-head{
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  .about-icon-para{
+      text-align: center;
+      color: rgb(139, 136, 136);
+      font-size: 15px;
+  }
+  .notify-textbox{
+      width: 250px;
+      border-radius: 5px;
+  }
+  #second-container{
+      position: relative;
+      bottom: 150px;
+  }
+  #third-container{
+      border: 1px solid transparent;
+      background-color: rgba(160, 156, 156, 0.349);
+      min-height: 300px; 
+      position: relative; 
+      bottom: 120px;
+  }
+  .update-notification{
+      font-size: 20px;
+    font-weight: bolder;
+  }
+  .about-update-notification{
+    color: rgb(107, 104, 104);
+    font-size: 15px;
+  }
+
+  .update-notification-video{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -25%);
+}
+  #notification{
+    position: relative;
+    left: 12%;
+    top: 50px;
+    
+  }
+  .core-head{
+      text-align: center;
+      font-weight: bold;
+      font-size: 30px;
+  }
+  .small-border{
+      border: 1px solid rgb(21, 182, 62);
+      width: 100px;
+      margin-left: 45.5%;
+  }
+  .ionicon2{
+      font-size: 45px;
+      color: rgba(143, 140, 140, 0.788);
+      padding-left:43%;
+      padding-bottom: 15px;
+  }
+  #fourth-container{
+      position: relative;
+      bottom: 60px;
+  }
+.footer{
+      background-color: rgba(143, 140, 140, 0.788);
+    width: 100%;
+    height: 60px;
+    color: rgb(102, 100, 100);
+    bottom: 0px;
+    
+  }
+ .items{
+     padding-top: 20px;
+ }
+  
+   @media (max-width: 931.2px){
+    .main-img{
+        height: 300px;
+    }
+    .main-content{
+        margin-left: 100px;
+        position: relative;
+        bottom: 220px;
+    }
+    .icons{
+        margin-left: 36%;
+    }
+    .about-icon-para{
+        font-size: 12px;
+    }
+    .update-notification-video{
+        width: 300px;
+        transform: translate(-50%,-10%);
+    }
+    #notification{
+        position: relative;
+        left: 30px;
+        
+        top: 70px;
+    }
+    .about-update-notification{
+        font-size: 12px;
+        
+    }
+    .notify-textbox{
+        width: 210px;
+    }
+    .small-border{
+        margin-left: 43.5%;
+    }
+
+   }
+  
+   @media (max-width: 576px) { 
+        .main-img{
+            height: 200px;
+        }
+        .notify{
+            font-size: 25px;
+            color: white;
+        }
+        .para{
+            font-size: 14px;
+        }
+        .wrapper i{
+            font-size: 17px;
+        }
+        .main-content{
+            margin-left: 20px;
+            position: relative;
+            bottom: 200px;
+        }
+        .icons{
+            margin-left: 40%;
+        }
+        #third-container{
+            height: 450px;
+        }
+        #notification{
+            
+            position: relative;
+            left: 0px;
+            
+            top: 20px;
+        }
+        .update-notification-video{
+            left: 50%;
+            position: relative;
+            top: 142px;
+            transform: translate(-50%, -50%);
+        }
+        .small-border{
+            margin-left: 35%;
+        }
+       
+        .footer{
+            height: 40px;
+        }
+        .items{
+            padding-top: 10px;
+        }
+        #notify-textbox{
+            transform: translate(10%);
+            
+            
+        }
+        
+}
+@media (max-width:384px){
+    #third-container{
+        height: 500px;
+    }
+    #notification{
+        position: relative;
+        left: 0px;
+        
+        top: 20px;
+    }
+}
+
+
